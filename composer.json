@@ -1,0 +1,8 @@
+{
+    "autoload": {
+        "psr-4": {"SteveShanks\\PHP7Features\\": "src/"}
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.2"
+    }
+}
