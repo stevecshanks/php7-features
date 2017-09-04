@@ -6,7 +6,7 @@ Trying out the new features in PHP 7.
     - [x] Scalar type declarations
     - [x] Return type declarations
     - [x] Null coalescing operator
-    - [ ] Spaceship operator
+    - [x] Spaceship operator
     - [ ] Constant arrays using `define()`
     - [ ] Anonymous classes
     - [ ] Unicode codepoint escape syntax

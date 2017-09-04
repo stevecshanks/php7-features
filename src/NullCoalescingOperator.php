@@ -9,7 +9,7 @@ class NullCoalescingOperator
         return $input['thing'] ?? false;
     }
 
-    public function getFromChain($input)
+    public function getFromChain(array $input)
     {
         return $input['one'] ?? $input['two'] ?? false;
     }
