@@ -1,7 +1,5 @@
 <?php
 
-declare(strict_types=1);
-
 namespace SteveShanks\PHP7Features\Tests;
 
 use SteveShanks\PHP7Features\ReturnTypeDeclarations;
@@ -42,5 +40,12 @@ class ReturnTypeDeclarationsTest extends \PHPUnit\Framework\TestCase
             ['returnInt', 1],
             ['returnObject', new ReturnTypeDeclarations()]
         ];
+    }
+
+    public function testItDoesNotCooerceReturnTypeIfStrictModeEnabled()
+    {
+        $this->expectException(\TypeError::class);
+        $fixture = new ReturnTypeDeclarations();
+        $fixture->returnInt(1.5);
     }
 }
