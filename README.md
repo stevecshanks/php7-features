@@ -5,7 +5,7 @@ Trying out the new features in PHP 7.
 - [7.0](http://php.net/manual/en/migration70.new-features.php)
     - [x] Scalar type declarations
     - [x] Return type declarations
-    - [ ] Null coalescing operator
+    - [x] Null coalescing operator
     - [ ] Spaceship operator
     - [ ] Constant arrays using `define()`
     - [ ] Anonymous classes
