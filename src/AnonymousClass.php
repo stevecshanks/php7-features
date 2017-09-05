@@ -14,7 +14,7 @@ class AnonymousClass
                 $this->amount = $amount;
             }
 
-            public function __invoke($element)
+            public function __invoke(int $element) : int
             {
                 return $element * $this->amount;
             }
