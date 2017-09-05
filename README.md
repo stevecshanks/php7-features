@@ -8,7 +8,7 @@ Trying out the new features in PHP 7.
     - [x] Null coalescing operator
     - [x] Spaceship operator
     - [ ] Constant arrays using `define()`
-    - [ ] Anonymous classes
+    - [x] Anonymous classes
     - [ ] Unicode codepoint escape syntax
     - [ ] `Closure::call()`
     - [ ] Filtered `unserialize()`
