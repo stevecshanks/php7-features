@@ -13,7 +13,7 @@ Trying out the new features in PHP 7.
     - [x] `Closure::call()`
     - [ ] Filtered `unserialize()`
     - [ ] `IntlChar`
-    - [ ] Expectations
+    - [x] Expectations
     - [ ] Group `use` declarations
     - [ ] Generator return expressions
     - [ ] Generator delegation
