@@ -10,7 +10,7 @@ Trying out the new features in PHP 7.
     - [ ] Constant arrays using `define()`
     - [x] Anonymous classes
     - [ ] Unicode codepoint escape syntax
-    - [ ] `Closure::call()`
+    - [x] `Closure::call()`
     - [ ] Filtered `unserialize()`
     - [ ] `IntlChar`
     - [ ] Expectations
