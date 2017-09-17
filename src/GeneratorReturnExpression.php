@@ -17,14 +17,15 @@ class GeneratorReturnExpression
 
     protected function initialiseGenerator() : \Generator
     {
-        return (function () {
+        $generator = function () {
             $total = 0;
             for ($i = $this->start; $i < $this->end; $i++) {
                 yield $i;
                 $total += $i;
             }
             return $total;
-        })();
+        };
+        return $generator();
     }
 
     public function getValueIterator() : \Iterator
