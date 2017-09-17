@@ -15,7 +15,7 @@ Trying out the new features in PHP 7.
     - [ ] `IntlChar`
     - [x] Expectations
     - [ ] Group `use` declarations
-    - [ ] Generator return expressions
+    - [x] Generator return expressions
     - [ ] Generator delegation
     - [ ] Integer division with `intdiv()`
     - [ ] Session options
