@@ -16,7 +16,7 @@ Trying out the new features in PHP 7.
     - [x] Expectations
     - [ ] Group `use` declarations
     - [x] Generator return expressions
-    - [ ] Generator delegation
+    - [x] Generator delegation
     - [ ] Integer division with `intdiv()`
     - [ ] Session options
     - [ ] `preg_replace_callback_array()`
