@@ -2,9 +2,10 @@
 
 namespace SteveShanks\PHP7Features\Tests;
 
+use PHPUnit\Framework\TestCase;
 use SteveShanks\PHP7Features\GeneratorReturnExpression;
 
-class GeneratorReturnExpressionTest extends \PHPUnit\Framework\TestCase
+class GeneratorReturnExpressionTest extends TestCase
 {
     public function testItReturnsCorrectValues()
     {

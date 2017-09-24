@@ -2,9 +2,10 @@
 
 namespace SteveShanks\PHP7Features\Tests;
 
+use PHPUnit\Framework\TestCase;
 use SteveShanks\PHP7Features\GeneratorDelegation;
 
-class GeneratorDelegationTest extends \PHPUnit\Framework\TestCase
+class GeneratorDelegationTest extends TestCase
 {
     public function testItReturnsCorrectSequence()
     {

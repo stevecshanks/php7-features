@@ -2,9 +2,10 @@
 
 namespace SteveShanks\PHP7Features\Tests;
 
+use PHPUnit\Framework\TestCase;
 use SteveShanks\PHP7Features\SpaceshipOperator;
 
-class SpaceshipOperatorTest extends \PHPUnit\Framework\TestCase
+class SpaceshipOperatorTest extends TestCase
 {
     public function testItSortsArrayCorrectly()
     {

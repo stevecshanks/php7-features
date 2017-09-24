@@ -4,7 +4,7 @@ namespace SteveShanks\PHP7Features;
 
 class AnonymousClass
 {
-    public function getMultiplier(int $amount) : callable
+    public function getMultiplier(int $amount): callable
     {
         return new class ($amount) {
             private $amount;
@@ -14,7 +14,7 @@ class AnonymousClass
                 $this->amount = $amount;
             }
 
-            public function __invoke(int $element) : int
+            public function __invoke(int $element): int
             {
                 return $element * $this->amount;
             }

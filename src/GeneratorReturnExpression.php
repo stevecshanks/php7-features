@@ -2,6 +2,9 @@
 
 namespace SteveShanks\PHP7Features;
 
+use Generator;
+use Iterator;
+
 class GeneratorReturnExpression
 {
     protected $start;
@@ -15,7 +18,7 @@ class GeneratorReturnExpression
         $this->generator = $this->initialiseGenerator();
     }
 
-    protected function initialiseGenerator() : \Generator
+    protected function initialiseGenerator(): Generator
     {
         $generator = function () {
             $total = 0;
@@ -28,12 +31,12 @@ class GeneratorReturnExpression
         return $generator();
     }
 
-    public function getValueIterator() : \Iterator
+    public function getValueIterator(): Iterator
     {
         return $this->generator;
     }
 
-    public function getTotal() : int
+    public function getTotal(): int
     {
         return $this->generator->getReturn();
     }

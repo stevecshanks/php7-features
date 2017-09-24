@@ -1,10 +1,11 @@
 <?php
 
-namespace SteveShanks\PHP7Features;
+namespace SteveShanks\PHP7Features\Tests;
 
+use PHPUnit\Framework\TestCase;
 use SteveShanks\PHP7Features\Expectations;
 
-class ExpectationsTest extends \PHPUnit\Framework\TestCase
+class ExpectationsTest extends TestCase
 {
     public function testItOnlyAcceptsPositiveIntegers()
     {

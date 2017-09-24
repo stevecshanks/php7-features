@@ -2,9 +2,11 @@
 
 namespace SteveShanks\PHP7Features;
 
+use Iterator;
+
 class GeneratorDelegation
 {
-    public function getFibonacciIterator() : \Iterator
+    public function getFibonacciIterator(): Iterator
     {
         $generator = function () {
             $initialValues = [0, 1];

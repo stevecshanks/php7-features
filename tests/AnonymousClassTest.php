@@ -2,9 +2,10 @@
 
 namespace SteveShanks\PHP7Features\Tests;
 
+use PHPUnit\Framework\TestCase;
 use SteveShanks\PHP7Features\AnonymousClass;
 
-class AnonymousClassTest extends \PHPUnit\Framework\TestCase
+class AnonymousClassTest extends TestCase
 {
     public function testItCanCreateInvokableObject()
     {

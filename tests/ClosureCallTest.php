@@ -1,10 +1,11 @@
 <?php
 
-namespace SteveShanks\PHP7Features;
+namespace SteveShanks\PHP7Features\Tests;
 
+use PHPUnit\Framework\TestCase;
 use SteveShanks\PHP7Features\ClosureCall;
 
-class ClosureCallTest extends \PHPUnit\Framework\TestCase
+class ClosureCallTest extends TestCase
 {
     public function testItAllowsAccessToPrivateVariables()
     {

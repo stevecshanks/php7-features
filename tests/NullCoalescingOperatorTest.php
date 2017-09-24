@@ -2,9 +2,10 @@
 
 namespace SteveShanks\PHP7Features\Tests;
 
+use PHPUnit\Framework\TestCase;
 use SteveShanks\PHP7Features\NullCoalescingOperator;
 
-class NullCoalescingOperatorTest extends \PHPUnit\Framework\TestCase
+class NullCoalescingOperatorTest extends TestCase
 {
     /**
      * @dataProvider expectedOutputProvider
